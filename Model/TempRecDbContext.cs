@@ -10,7 +10,6 @@ namespace EmployeeTempRecorder.Model
     {
         public TempRecDbContext(DbContextOptions<TempRecDbContext> options) : base(options) { }
         public DbSet<Employee> Employees { get; set; }
-        public DbSet<AuditEntry> AuditEntries { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
