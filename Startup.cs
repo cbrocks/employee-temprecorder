@@ -1,6 +1,5 @@
 using EmployeeTempRecorder.Infrastructure.CQRS;
 using EmployeeTempRecorder.Infrastructure.DependencyManager;
-using EmployeeTempRecorder.Infrastructure.Logging;
 using EmployeeTempRecorder.Infrastructure.Mediator;
 using EmployeeTempRecorder.Model;
 using Microsoft.AspNetCore.Builder;
@@ -80,7 +79,6 @@ namespace EmployeeTempRecorder
                 cfg.For<IMediator>().Use<Mediator>();
                 cfg.For<IDependencyResolver>().Use<StructureMapDependencyResolver>();
                 cfg.For<IHttpContextAccessor>().Use<HttpContextAccessor>().Singleton();
-                cfg.For<ILogRepository>().Use<LogRepository>();
 
                 cfg.Populate(services);
             });

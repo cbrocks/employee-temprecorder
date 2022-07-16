@@ -5873,11 +5873,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\JUNK\\WORK\\FlexiSourceIT\\EmployeeTempRecorder\\EmployeeTempRecorder\\EmployeeTempRecorder.csproj",
+      "projectUniqueName": "C:\\Users\\Chris\\Documents\\GitHub\\employee-temprecorder\\EmployeeTempRecorder.csproj",
       "projectName": "EmployeeTempRecorder",
-      "projectPath": "C:\\JUNK\\WORK\\FlexiSourceIT\\EmployeeTempRecorder\\EmployeeTempRecorder\\EmployeeTempRecorder.csproj",
+      "projectPath": "C:\\Users\\Chris\\Documents\\GitHub\\employee-temprecorder\\EmployeeTempRecorder.csproj",
       "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
-      "outputPath": "C:\\JUNK\\WORK\\FlexiSourceIT\\EmployeeTempRecorder\\EmployeeTempRecorder\\obj\\",
+      "outputPath": "C:\\Users\\Chris\\Documents\\GitHub\\employee-temprecorder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

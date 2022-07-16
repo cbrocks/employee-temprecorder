@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mo85stlWEJ7KRwcfab1Zh1pu+MGm2Y6KICXTk5KlZOSCDmr0gEXgRfGOqaQs8O9vCOrnV50ct6JDHcx4M1tDZQ==",
+  "dgSpecHash": "9U6+gCEG/kCGbRGGAKiAVXAjsn3m8sX0pXv1FUVxV2ZrEUWdkFOPmXUUi+U3jFvhOtASXUS25x5zXgz8Rz7S3A==",
   "success": true,
-  "projectFilePath": "C:\\JUNK\\WORK\\FlexiSourceIT\\EmployeeTempRecorder\\EmployeeTempRecorder\\EmployeeTempRecorder.csproj",
+  "projectFilePath": "C:\\Users\\Chris\\Documents\\GitHub\\employee-temprecorder\\EmployeeTempRecorder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Chris\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.27\\microsoft.aspnetcore.jsonpatch.3.1.27.nupkg.sha512",
     "C:\\Users\\Chris\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.27\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.27.nupkg.sha512",

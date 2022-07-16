@@ -1,5 +1,4 @@
 ﻿using EmployeeTempRecorder.Feature.TempRecorder.Search;
-using EmployeeTempRecorder.Infrastructure.Logging;
 using EmployeeTempRecorder.Infrastructure.Mediator;
 using EmployeeTempRecorder.Model;
 using EmployeeTempRecorder.Shared;

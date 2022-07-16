@@ -28,19 +28,19 @@ namespace EmployeeTempRecorder.Shared
             return SendCommand(command);
         }
 
-        protected ActionResult SendCommand(ICommand command, Func<ActionResult> redirect)
-        {
-            var result = _mediator.Send(command);
-            if (result.HasException())
-            {
-                throw result.Exception;
-            }
-            if (redirect != null)
-            {
-                return redirect.Invoke();
-            }
+        //protected ActionResult SendCommand(ICommand command, Func<ActionResult> redirect)
+        //{
+        //    var result = _mediator.Send(command);
+        //    if (result.HasException())
+        //    {
+        //        throw result.Exception;
+        //    }
+        //    if (redirect != null)
+        //    {
+        //        return redirect.Invoke();
+        //    }
 
-            return RedirectToAction("Index");
-        }
+        //    return RedirectToAction("Index");
+        //}
     }
 }
