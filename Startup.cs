@@ -56,7 +56,6 @@ namespace EmployeeTempRecorder
             services.AddOptions();
             services.AddControllers()
                 .AddNewtonsoftJson();
-            //services.AddEntityFrameworkSqlServer()
             services.AddDbContext<TempRecDbContext>(o => o.UseSqlServer(connstring));
             services.AddScoped<IMediator, Mediator>();
             services.AddTransient<SingleInstanceFactory>(sp => t => sp.GetService(t));
